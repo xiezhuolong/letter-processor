@@ -11,7 +11,10 @@
 - `CharacterRetentionProcessor`/`CharacterReplacementProcessor`：具体策略实现。
 - `LetterProcessor`：上下文类，封装策略调用。
 
-## 运行方式
-1. 编译：`mvn clean compile`  
-2. 运行 `Main` 类：`java -cp target/classes com.xiezhuolong.Main`  
-3. 执行测试：`mvn test`  
+
+## 开发环境
+- **JDK 版本**：21
+- **构建工具**：Maven 3.6+
+- **IDE 兼容**：IntelliJ IDEA（项目包含 `.idea` 配置文件夹，其他 IDE 可通过 Maven 导入）
+- **编码格式**：UTF-8
+- **测试框架**：JUnit 5.11.4
